@@ -1,16 +1,35 @@
-## Hi there 👋
+# Les basiques des markdown
+## YN
+### WN
+Ceci est un **bold** text
 
-<!--
-**EliE3001/EliE3001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Faires de listes
+1. Item 1 
+2. Item 2
+    1. Item 2.1
+   2. Item 2.2
+3. Item 3
+- [X] Action 1
 
-Here are some ideas to get you started:
+### Code
+```c
+int main(){
+    return 0;
+};
+````
+**Je vais faire une structure Player, comme ça:**
+````c
+struct p{
+    int x, y;
+};
+````
+````python
+def func(){
+    print("Hello")
+}
+````
+### Images
+![truc](https://fastly.picsum.photos/id/120/4928/3264.jpg?hmac=i-8mkfKj_gRyQt9ZJVhbIBXbtIBNcsbI_gwNe_39vus)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Equations
+$$ x^n + y^n = z^n $$
